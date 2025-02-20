@@ -1,3 +1,0 @@
-{
-    "default": "--publish-quiet --require-module ts-node/register --require e2e/step_definitions/**/*.ts --format progress"
-}
