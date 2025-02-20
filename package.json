@@ -19,8 +19,7 @@
     "eslint-plugin-chai-friendly": "^1.0.1",
     "eslint-plugin-import": "^2.31.0",
     "eslint-plugin-playwright": "^2.2.0",
-    "eslint-plugin-prettier": "^5.2.3",
-    "typescript-eslint": "^8.24.1"
+    "eslint-plugin-prettier": "^5.2.3"
   },
   "dependencies": {
     "playwright-notification-engine-hub": "file:"
