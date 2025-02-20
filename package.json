@@ -3,12 +3,26 @@
   "version": "1.0.0",
   "description": "\"# Playwright\"",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "lint": "npx eslint .",
+    "lint:fix": "npx eslint . --fix"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@playwright/test": "^1.50.1",
-    "@types/node": "^22.13.4"
+    "@types/node": "^22.13.4",
+    "@typescript-eslint/parser": "^8.24.1",
+    "eslint": "^9.20.1",
+    "eslint-config-prettier": "^10.0.1",
+    "eslint-plugin-chai-friendly": "^1.0.1",
+    "eslint-plugin-import": "^2.31.0",
+    "eslint-plugin-playwright": "^2.2.0",
+    "eslint-plugin-prettier": "^5.2.3",
+    "typescript-eslint": "^8.24.1"
+  },
+  "dependencies": {
+    "playwright-notification-engine-hub": "file:"
   }
 }
